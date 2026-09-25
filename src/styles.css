@@ -260,6 +260,106 @@ input {
   line-height: 1.6;
 }
 
+.metric-note {
+  display: block;
+  margin-top: 6px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.chips button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.alert,
+.notice {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+.alert {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-left: 4px solid #e11d48;
+  color: #9f1239;
+}
+
+.notice {
+  background: #f0fdfa;
+  border: 1px solid #99f6e4;
+  border-left: 4px solid var(--accent);
+  color: #115e59;
+}
+
+.confirm-box {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #fcd34d;
+  border-left: 4px solid #d97706;
+  border-radius: 6px;
+  background: #fffbeb;
+}
+
+.confirm-box p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.confirm-old {
+  color: #9f1239;
+}
+
+.confirm-new {
+  color: #115e59;
+}
+
+.confirm-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.hole-group {
+  margin-bottom: 20px;
+}
+
+.hole-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 0 4px 10px;
+}
+
+.hole-header h3 {
+  margin-bottom: 0;
+}
+
+.hole-header span {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+  color: #64748b;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 @media (max-width: 860px) {
   .hero,
   .workspace,
