@@ -128,6 +128,13 @@ label span {
   font-size: 34px;
 }
 
+.metric-card small {
+  display: block;
+  margin-top: 6px;
+  color: #64748b;
+  font-size: 12px;
+}
+
 .metric-card i {
   position: absolute;
   right: 18px;
@@ -183,6 +190,111 @@ label span {
 
 .chips.muted button {
   background: #ffffff;
+}
+
+.chips button.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+.aside-note,
+.filter-hint,
+.record-time,
+.empty-state {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.filter-hint {
+  margin: -6px 0 14px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-error,
+.form-notice {
+  margin: 14px 0 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+.form-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+}
+
+.form-notice {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #047857;
+}
+
+.confirm-box {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid #fcd34d;
+  border-radius: 8px;
+  background: #fffbeb;
+}
+
+.confirm-box p {
+  margin-bottom: 8px;
+}
+
+.confirm-line {
+  color: #526070;
+  font-size: 14px;
+}
+
+.confirm-actions,
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.confirm-actions {
+  margin-top: 10px;
+}
+
+.form-actions {
+  margin-top: 16px;
+}
+
+.hole-list {
+  display: grid;
+  gap: 16px;
+}
+
+.hole-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.hole-card > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.hole-card > header h3,
+.hole-card > header p {
+  margin: 0;
+}
+
+.hole-card > header p {
+  color: #526070;
 }
 
 .section-heading {
